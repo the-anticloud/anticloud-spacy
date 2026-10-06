@@ -1,0 +1,1178 @@
+{
+  "schema": "anticloud.tier-bench/1",
+  "project": "SPACY",
+  "source": {
+    "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\PHILOSOPHY_SEMANTICS\\SPACY\\UPSTREAM_CLONE",
+    "git": {
+      "head": "c2dabfce56ad2991685ec85783cd59637a5d7b8f",
+      "url": "https://github.com/explosion/spaCy",
+      "branch": "master",
+      "committed_at": "2026-09-30T17:13:41+09:00"
+    }
+  },
+  "metrics": {
+    "files_total": 1322,
+    "source_files_scanned": 594,
+    "lines_of_code": 102431,
+    "languages": {
+      ".py": 524,
+      ".md": 406,
+      ".js": 55,
+      ".svg": 55,
+      ".pyx": 47,
+      ".pxd": 39,
+      ".sass": 31,
+      ".jpg": 20,
+      ".png": 19,
+      ".json": 16,
+      ".pyi": 14,
+      ".tsx": 13,
+      "(none)": 11,
+      ".txt": 10,
+      ".yml": 10
+    }
+  },
+  "licence": {
+    "spdx": "MIT",
+    "class": "A",
+    "source_file": "LICENSE",
+    "redistribution_allowed": true
+  },
+  "dependencies": {
+    "count": 49,
+    "unique": 47,
+    "by_ecosystem": {
+      "npm": 46,
+      "pypi": 3
+    },
+    "list": [
+      {
+        "ecosystem": "pypi",
+        "name": "-std",
+        "version": "=c++11",
+        "source_file": "setup.py",
+        "raw": "-std=c++11"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "-std",
+        "version": "=c++11",
+        "source_file": "setup.py",
+        "raw": "-std=c++11"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "-std",
+        "version": "=c++11",
+        "source_file": "setup.py",
+        "raw": "-std=c++11"
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@codemirror/lang-python",
+        "version": "^6.1.0",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@docsearch/react",
+        "version": "^3.3.0",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@jupyterlab/services",
+        "version": "^3.2.1",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@lezer/highlight",
+        "version": "^1.1.3",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@mapbox/rehype-prism",
+        "version": "^0.8.0",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@mdx-js/loader",
+        "version": "^2.1.5",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@mdx-js/react",
+        "version": "^2.1.5",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@next/mdx",
+        "version": "^13.0.2",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@rehooks/online-status",
+        "version": "^1.1.2",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "18.11.9",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/react",
+        "version": "18.0.25",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/react-dom",
+        "version": "18.0.8",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@uiw/codemirror-themes",
+        "version": "^4.19.3",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@uiw/react-codemirror",
+        "version": "^4.19.3",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "acorn",
+        "version": "^8.8.1",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "browser-monads",
+        "version": "^1.0.0",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "classnames",
+        "version": "^2.3.2",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "8.27.0",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint-config-next",
+        "version": "13.0.2",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "html-to-react",
+        "version": "^1.5.0",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "jinja-to-js",
+        "version": "^3.2.3",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "md-attr-parser",
+        "version": "^1.3.0",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "next",
+        "version": "13.0.2",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "next-mdx-remote",
+        "version": "^4.2.0",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "next-plausible",
+        "version": "^3.6.5",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "next-pwa",
+        "version": "^5.6.0",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "next-sitemap",
+        "version": "^3.1.32",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "node-fetch",
+        "version": "^2.6.7",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "parse-numeric-range",
+        "version": "^1.3.0",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "prettier",
+        "version": "^2.7.1",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "prismjs",
+        "version": "^1.29.0",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "prop-types",
+        "version": "^15.8.1",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "react",
+        "version": "18.2.0",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "react-dom",
+        "version": "18.2.0",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "react-github-btn",
+        "version": "^1.4.0",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "react-inlinesvg",
+        "version": "^3.0.1",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "react-intersection-observer",
+        "version": "^9.4.0",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "remark",
+        "version": "^14.0.2",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "remark-gfm",
+        "version": "^3.0.1",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "remark-react",
+        "version": "^9.0.1",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "remark-smartypants",
+        "version": "^2.0.0",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "remark-unwrap-images",
+        "version": "^3.0.1",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "sass",
+        "version": "^1.56.1",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "4.8.4",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "unist-util-visit",
+        "version": "^4.1.1",
+        "source_file": "website/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "ws",
+        "version": "^8.11.0",
+        "source_file": "website/package.json",
+        "raw": ""
+      }
+    ]
+  },
+  "owasp_top10": {
+    "total_findings": 48,
+    "files_with_findings": 45,
+    "severity": {
+      "high": 2,
+      "medium": 2,
+      "low": 44
+    },
+    "categories": {
+      "A01-BrokenAccessControl": {
+        "count": 0,
+        "findings": []
+      },
+      "A02-CryptographicFailures": {
+        "count": 1,
+        "findings": [
+          {
+            "severity": "high",
+            "file": "spacy/lang/char_classes.py",
+            "line": 145,
+            "cwe": "CWE-327",
+            "snippet": "r\"\\u1ECB\\u1ECD\\u1ECF\\u1ED1\\u1ED3\\u1ED5\\u1ED7\\u1ED9\\u1EDB\\u1EDD\\u1EDF\\u1EE1\\u1EE3\\u1EE5\""
+          }
+        ]
+      },
+      "A03-Injection": {
+        "count": 3,
+        "findings": [
+          {
+            "severity": "high",
+            "file": "setup.py",
+            "line": 174,
+            "cwe": "CWE-95",
+            "snippet": "exec(f.read(), about)"
+          },
+          {
+            "severity": "medium",
+            "file": "spacy/cli/validate.py",
+            "line": 65,
+            "cwe": "CWE-89",
+            "snippet": "print(\"\\n\".join([cmd.format(pkg) for pkg in update_models]) + \"\\n\")"
+          },
+          {
+            "severity": "medium",
+            "file": "spacy/displacy/render.py",
+            "line": 149,
+            "cwe": "CWE-89",
+            "snippet": "markup = TPL_TITLE.format(title=title) + markup"
+          }
+        ]
+      },
+      "A04-InsecureDesign": {
+        "count": 30,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "spacy/language.py",
+            "line": 268,
+            "cwe": "CWE-",
+            "snippet": "# TODO: Adding this back to prevent breaking people's code etc., but"
+          },
+          {
+            "severity": "low",
+            "file": "spacy/lookups.py",
+            "line": 26,
+            "cwe": "CWE-",
+            "snippet": "# TODO: import spacy_lookups_data instead of going via entry points here?"
+          },
+          {
+            "severity": "low",
+            "file": "spacy/util.py",
+            "line": 685,
+            "cwe": "CWE-",
+            "snippet": "# TODO: include schema?"
+          },
+          {
+            "severity": "low",
+            "file": "spacy/cli/debug_data.py",
+            "line": 188,
+            "cwe": "CWE-",
+            "snippet": "# TODO: make this feedback more fine-grained and report on updated"
+          },
+          {
+            "severity": "low",
+            "file": "spacy/cli/debug_model.py",
+            "line": 158,
+            "cwe": "CWE-",
+            "snippet": "# ugly hack to deal with Tok2Vec/Transformer listeners"
+          },
+          {
+            "severity": "low",
+            "file": "spacy/cli/pretrain.py",
+            "line": 89,
+            "cwe": "CWE-",
+            "snippet": "# TODO: What's the solution here? How do we handle optional blocks?"
+          },
+          {
+            "severity": "low",
+            "file": "spacy/cli/validate.py",
+            "line": 120,
+            "cwe": "CWE-",
+            "snippet": "\"\"\"Hack to reformat old versions ending on '-alpha' to match pip format.\"\"\""
+          },
+          {
+            "severity": "low",
+            "file": "spacy/cli/_util.py",
+            "line": 135,
+            "cwe": "CWE-",
+            "snippet": "# TODO: improve logic to handle simple types like list of strings?"
+          },
+          {
+            "severity": "low",
+            "file": "spacy/lang/lex_attrs.py",
+            "line": 11,
+            "cwe": "CWE-",
+            "snippet": "\"name|pro|tel|travel|xyz|icu|xxx|ac|ad|ae|af|ag|ai|al|am|an|ao|aq|ar|as|at|au|aw|\""
+          },
+          {
+            "severity": "low",
+            "file": "spacy/lang/es/stop_words.py",
+            "line": 69,
+            "cwe": "CWE-",
+            "snippet": "todas todavia todav\u00eda todo todos total tras trata trav\u00e9s tres tu tus tuvo tuya"
+          },
+          {
+            "severity": "low",
+            "file": "spacy/lang/fr/_tokenizer_exceptions_list.py",
+            "line": 909,
+            "cwe": "CWE-",
+            "snippet": "\"Br\u00fccken-Hackpf\u00fcffel\","
+          },
+          {
+            "severity": "low",
+            "file": "spacy/lang/ga/lemmatizer.py",
+            "line": 37,
+            "cwe": "CWE-",
+            "snippet": "# TODO: lookup is actually required for the genitive forms, but"
+          },
+          {
+            "severity": "low",
+            "file": "spacy/lang/ja/syntax_iterators.py",
+            "line": 6,
+            "cwe": "CWE-",
+            "snippet": "# TODO: this can probably be pruned a bit"
+          },
+          {
+            "severity": "low",
+            "file": "spacy/lang/ja/tag_map.py",
+            "line": 41,
+            "cwe": "CWE-",
+            "snippet": "\"\u5f62\u5bb9\u8a5e-\u975e\u81ea\u7acb\u53ef\u80fd\": {POS: ADJ},  # XXX ADJ if alone, AUX otherwise"
+          },
+          {
+            "severity": "low",
+            "file": "spacy/lang/la/tokenizer_exceptions.py",
+            "line": 5,
+            "cwe": "CWE-",
+            "snippet": "## TODO: Look into systematically handling u/v"
+          },
+          {
+            "severity": "low",
+            "file": "spacy/lang/lb/tokenizer_exceptions.py",
+            "line": 5,
+            "cwe": "CWE-",
+            "snippet": "# TODO"
+          },
+          {
+            "severity": "low",
+            "file": "spacy/lang/pt/stop_words.py",
+            "line": 56,
+            "cwe": "CWE-",
+            "snippet": "tivemos tiveram tiveste tivestes toda todas todo todos treze tr\u00eas tu tua tuas"
+          },
+          {
+            "severity": "low",
+            "file": "spacy/ml/staticvectors.py",
+            "line": 68,
+            "cwe": "CWE-",
+            "snippet": "# TODO: more options for UNK tokens"
+          },
+          {
+            "severity": "low",
+            "file": "spacy/ml/models/tagger.py",
+            "line": 19,
+            "cwe": "CWE-",
+            "snippet": "# TODO: glorot_uniform_init seems to work a bit better than zero_init here?!"
+          },
+          {
+            "severity": "low",
+            "file": "spacy/ml/models/textcat.py",
+            "line": 146,
+            "cwe": "CWE-",
+            "snippet": "# TODO: build the model with _build_parametric_attention_with_residual_nonlinear"
+          },
+          {
+            "severity": "low",
+            "file": "spacy/pipeline/entity_linker.py",
+            "line": 217,
+            "cwe": "CWE-",
+            "snippet": "# XXX In order for size estimation to work, there has to be at least"
+          },
+          {
+            "severity": "low",
+            "file": "spacy/pipeline/functions.py",
+            "line": 66,
+            "cwe": "CWE-",
+            "snippet": "# TODO: make stateful component with \"label\" config"
+          },
+          {
+            "severity": "low",
+            "file": "spacy/pipeline/spancat.py",
+            "line": 550,
+            "cwe": "CWE-",
+            "snippet": "# TODO"
+          },
+          {
+            "severity": "low",
+            "file": "spacy/pipeline/legacy/entity_linker.py",
+            "line": 245,
+            "cwe": "CWE-",
+            "snippet": "# Looping through each entity (TODO: rewrite)"
+          },
+          {
+            "severity": "low",
+            "file": "spacy/tokens/underscore.py",
+            "line": 42,
+            "cwe": "CWE-",
+            "snippet": "# Hack to enable autocomplete on custom extensions"
+          }
+        ]
+      },
+      "A05-SecurityMisconfiguration": {
+        "count": 0,
+        "findings": []
+      },
+      "A06-VulnerableComponents": {
+        "count": 0,
+        "findings": []
+      },
+      "A07-AuthFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A08-SoftwareDataIntegrity": {
+        "count": 14,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "setup.py",
+            "line": 20,
+            "cwe": "CWE-319",
+            "snippet": "# http://docs.cython.org/en/latest/src/userguide/source_files_and_compilation.html#compiler-options"
+          },
+          {
+            "severity": "low",
+            "file": "spacy/errors.py",
+            "line": 190,
+            "cwe": "CWE-319",
+            "snippet": "\"http://spacy.io/usage/v3#jupyter-notebook-gpu\")"
+          },
+          {
+            "severity": "low",
+            "file": "spacy/glossary.py",
+            "line": 26,
+            "cwe": "CWE-319",
+            "snippet": "# http://universaldependencies.org/u/pos/"
+          },
+          {
+            "severity": "low",
+            "file": "spacy/displacy/templates.py",
+            "line": 5,
+            "cwe": "CWE-319",
+            "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xml:lang=\"{lang}\" id=\"{id}\" class=\"displacy\" width=\"{width}\" height=\"{height}\" direction=\"{dir}\" "
+          },
+          {
+            "severity": "low",
+            "file": "spacy/displacy/__init__.py",
+            "line": 111,
+            "cwe": "CWE-319",
+            "snippet": "print(f\"Serving on http://{host}:{port} ...\\n\")"
+          },
+          {
+            "severity": "low",
+            "file": "spacy/lang/am/stop_words.py",
+            "line": 1,
+            "cwe": "CWE-319",
+            "snippet": "# Stop words by Teshome Kassie http://etd.aau.edu.et/bitstream/handle/123456789/3315/Teshome%20Kassie.pdf?sequence=1&isAllowed=y"
+          },
+          {
+            "severity": "low",
+            "file": "spacy/lang/da/lex_attrs.py",
+            "line": 3,
+            "cwe": "CWE-319",
+            "snippet": "# Source http://fjern-uv.dk/tal.php"
+          },
+          {
+            "severity": "low",
+            "file": "spacy/lang/el/punctuation.py",
+            "line": 40,
+            "cwe": "CWE-319",
+            "snippet": "r\"http://www.[A-Za-z]+\\-[A-Za-z]+(\\.[A-Za-z]+)+(\\/[A-Za-z]+)*(\\.[A-Za-z]+)*\","
+          },
+          {
+            "severity": "low",
+            "file": "spacy/lang/eu/lex_attrs.py",
+            "line": 3,
+            "cwe": "CWE-319",
+            "snippet": "# Source http://mylanguages.org/basque_numbers.php"
+          },
+          {
+            "severity": "low",
+            "file": "spacy/lang/hi/lex_attrs.py",
+            "line": 152,
+            "cwe": "CWE-319",
+            "snippet": "# http://computing.open.ac.uk/Sites/EACLSouthAsia/Papers/p6-Ramanathan.pdf"
+          },
+          {
+            "severity": "low",
+            "file": "spacy/lang/ja/tag_map.py",
+            "line": 26,
+            "cwe": "CWE-319",
+            "snippet": "# http://universaldependencies.org/ja/overview/morphology.html"
+          },
+          {
+            "severity": "low",
+            "file": "spacy/lang/nl/stop_words.py",
+            "line": 2,
+            "cwe": "CWE-319",
+            "snippet": "# http://www.damienvanholten.com/downloads/dutch-stop-words.txt"
+          },
+          {
+            "severity": "low",
+            "file": "spacy/lang/ro/__init__.py",
+            "line": 8,
+            "cwe": "CWE-319",
+            "snippet": "# Original pairs downloaded from http://www.lexiconista.com/datasets/lemmatization/"
+          },
+          {
+            "severity": "low",
+            "file": "spacy/lang/ur/lex_attrs.py",
+            "line": 4,
+            "cwe": "CWE-319",
+            "snippet": "# http://www.urduword.com/lessons.php?lesson=numbers"
+          }
+        ]
+      },
+      "A09-LoggingMonitoringFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A10-SSRF": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "owasp_llm_top10": {
+    "total_findings": 1,
+    "files_with_findings": 1,
+    "severity": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "categories": {
+      "LLM01-PromptInjection": {
+        "count": 1,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "spacy/cli/init_config.py",
+            "line": 215,
+            "cwe": "CWE-1336",
+            "snippet": "template = Template(f.read())"
+          }
+        ]
+      },
+      "LLM02-SensitiveInfoDisclosure": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM03-SupplyChain": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM04-DataPoisoning": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM05-ImproperOutputHandling": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM06-ExcessiveAgency": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM07-SystemPromptLeak": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM08-VectorEmbeddingWeaknesses": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM09-Misinformation": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM10-UnboundedConsumption": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "sbom": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "serialNumber": "urn:uuid:7b6860f4-65c4-594c-9f83-d401375b1bf2",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-10-05T16:08:41Z",
+      "component": {
+        "type": "application",
+        "name": "SPACY",
+        "version": "c2dabfce56ad",
+        "bom-ref": "pkg:generic/anticloud/SPACY@c2dabfce56ad",
+        "purl": "pkg:generic/anticloud/SPACY@c2dabfce56ad",
+        "licenses": [
+          {
+            "license": {
+              "id": "MIT"
+            }
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "anticloud:source-commit",
+          "value": "c2dabfce56ad2991685ec85783cd59637a5d7b8f"
+        },
+        {
+          "name": "anticloud:source-url",
+          "value": "https://github.com/explosion/spaCy"
+        },
+        {
+          "name": "anticloud:tier",
+          "value": "tier-agent"
+        }
+      ]
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "-std",
+        "version": "=c++11",
+        "purl": "pkg:pypi/-std@c++11",
+        "bom-ref": "pypi/-std@=c++11"
+      },
+      {
+        "type": "library",
+        "name": "@codemirror/lang-python",
+        "version": "^6.1.0",
+        "purl": "pkg:npm/@codemirror/lang-python@^6.1.0",
+        "bom-ref": "npm/@codemirror/lang-python@^6.1.0"
+      },
+      {
+        "type": "library",
+        "name": "@docsearch/react",
+        "version": "^3.3.0",
+        "purl": "pkg:npm/@docsearch/react@^3.3.0",
+        "bom-ref": "npm/@docsearch/react@^3.3.0"
+      },
+      {
+        "type": "library",
+        "name": "@jupyterlab/services",
+        "version": "^3.2.1",
+        "purl": "pkg:npm/@jupyterlab/services@^3.2.1",
+        "bom-ref": "npm/@jupyterlab/services@^3.2.1"
+      },
+      {
+        "type": "library",
+        "name": "@lezer/highlight",
+        "version": "^1.1.3",
+        "purl": "pkg:npm/@lezer/highlight@^1.1.3",
+        "bom-ref": "npm/@lezer/highlight@^1.1.3"
+      },
+      {
+        "type": "library",
+        "name": "@mapbox/rehype-prism",
+        "version": "^0.8.0",
+        "purl": "pkg:npm/@mapbox/rehype-prism@^0.8.0",
+        "bom-ref": "npm/@mapbox/rehype-prism@^0.8.0"
+      },
+      {
+        "type": "library",
+        "name": "@mdx-js/loader",
+        "version": "^2.1.5",
+        "purl": "pkg:npm/@mdx-js/loader@^2.1.5",
+        "bom-ref": "npm/@mdx-js/loader@^2.1.5"
+      },
+      {
+        "type": "library",
+        "name": "@mdx-js/react",
+        "version": "^2.1.5",
+        "purl": "pkg:npm/@mdx-js/react@^2.1.5",
+        "bom-ref": "npm/@mdx-js/react@^2.1.5"
+      },
+      {
+        "type": "library",
+        "name": "@next/mdx",
+        "version": "^13.0.2",
+        "purl": "pkg:npm/@next/mdx@^13.0.2",
+        "bom-ref": "npm/@next/mdx@^13.0.2"
+      },
+      {
+        "type": "library",
+        "name": "@rehooks/online-status",
+        "version": "^1.1.2",
+        "purl": "pkg:npm/@rehooks/online-status@^1.1.2",
+        "bom-ref": "npm/@rehooks/online-status@^1.1.2"
+      },
+      {
+        "type": "library",
+        "name": "@types/node",
+        "version": "18.11.9",
+        "purl": "pkg:npm/@types/node@18.11.9",
+        "bom-ref": "npm/@types/node@18.11.9"
+      },
+      {
+        "type": "library",
+        "name": "@types/react",
+        "version": "18.0.25",
+        "purl": "pkg:npm/@types/react@18.0.25",
+        "bom-ref": "npm/@types/react@18.0.25"
+      },
+      {
+        "type": "library",
+        "name": "@types/react-dom",
+        "version": "18.0.8",
+        "purl": "pkg:npm/@types/react-dom@18.0.8",
+        "bom-ref": "npm/@types/react-dom@18.0.8"
+      },
+      {
+        "type": "library",
+        "name": "@uiw/codemirror-themes",
+        "version": "^4.19.3",
+        "purl": "pkg:npm/@uiw/codemirror-themes@^4.19.3",
+        "bom-ref": "npm/@uiw/codemirror-themes@^4.19.3"
+      },
+      {
+        "type": "library",
+        "name": "@uiw/react-codemirror",
+        "version": "^4.19.3",
+        "purl": "pkg:npm/@uiw/react-codemirror@^4.19.3",
+        "bom-ref": "npm/@uiw/react-codemirror@^4.19.3"
+      },
+      {
+        "type": "library",
+        "name": "acorn",
+        "version": "^8.8.1",
+        "purl": "pkg:npm/acorn@^8.8.1",
+        "bom-ref": "npm/acorn@^8.8.1"
+      },
+      {
+        "type": "library",
+        "name": "browser-monads",
+        "version": "^1.0.0",
+        "purl": "pkg:npm/browser-monads@^1.0.0",
+        "bom-ref": "npm/browser-monads@^1.0.0"
+      },
+      {
+        "type": "library",
+        "name": "classnames",
+        "version": "^2.3.2",
+        "purl": "pkg:npm/classnames@^2.3.2",
+        "bom-ref": "npm/classnames@^2.3.2"
+      },
+      {
+        "type": "library",
+        "name": "eslint",
+        "version": "8.27.0",
+        "purl": "pkg:npm/eslint@8.27.0",
+        "bom-ref": "npm/eslint@8.27.0"
+      },
+      {
+        "type": "library",
+        "name": "eslint-config-next",
+        "version": "13.0.2",
+        "purl": "pkg:npm/eslint-config-next@13.0.2",
+        "bom-ref": "npm/eslint-config-next@13.0.2"
+      },
+      {
+        "type": "library",
+        "name": "html-to-react",
+        "version": "^1.5.0",
+        "purl": "pkg:npm/html-to-react@^1.5.0",
+        "bom-ref": "npm/html-to-react@^1.5.0"
+      },
+      {
+        "type": "library",
+        "name": "jinja-to-js",
+        "version": "^3.2.3",
+        "purl": "pkg:npm/jinja-to-js@^3.2.3",
+        "bom-ref": "npm/jinja-to-js@^3.2.3"
+      },
+      {
+        "type": "library",
+        "name": "md-attr-parser",
+        "version": "^1.3.0",
+        "purl": "pkg:npm/md-attr-parser@^1.3.0",
+        "bom-ref": "npm/md-attr-parser@^1.3.0"
+      },
+      {
+        "type": "library",
+        "name": "next",
+        "version": "13.0.2",
+        "purl": "pkg:npm/next@13.0.2",
+        "bom-ref": "npm/next@13.0.2"
+      },
+      {
+        "type": "library",
+        "name": "next-mdx-remote",
+        "version": "^4.2.0",
+        "purl": "pkg:npm/next-mdx-remote@^4.2.0",
+        "bom-ref": "npm/next-mdx-remote@^4.2.0"
+      },
+      {
+        "type": "library",
+        "name": "next-plausible",
+        "version": "^3.6.5",
+        "purl": "pkg:npm/next-plausible@^3.6.5",
+        "bom-ref": "npm/next-plausible@^3.6.5"
+      },
+      {
+        "type": "library",
+        "name": "next-pwa",
+        "version": "^5.6.0",
+        "purl": "pkg:npm/next-pwa@^5.6.0",
+        "bom-ref": "npm/next-pwa@^5.6.0"
+      },
+      {
+        "type": "library",
+        "name": "next-sitemap",
+        "version": "^3.1.32",
+        "purl": "pkg:npm/next-sitemap@^3.1.32",
+        "bom-ref": "npm/next-sitemap@^3.1.32"
+      },
+      {
+        "type": "library",
+        "name": "node-fetch",
+        "version": "^2.6.7",
+        "purl": "pkg:npm/node-fetch@^2.6.7",
+        "bom-ref": "npm/node-fetch@^2.6.7"
+      },
+      {
+        "type": "library",
+        "name": "parse-numeric-range",
+        "version": "^1.3.0",
+        "purl": "pkg:npm/parse-numeric-range@^1.3.0",
+        "bom-ref": "npm/parse-numeric-range@^1.3.0"
+      },
+      {
+        "type": "library",
+        "name": "prettier",
+        "version": "^2.7.1",
+        "purl": "pkg:npm/prettier@^2.7.1",
+        "bom-ref": "npm/prettier@^2.7.1"
+      },
+      {
+        "type": "library",
+        "name": "prismjs",
+        "version": "^1.29.0",
+        "purl": "pkg:npm/prismjs@^1.29.0",
+        "bom-ref": "npm/prismjs@^1.29.0"
+      },
+      {
+        "type": "library",
+        "name": "prop-types",
+        "version": "^15.8.1",
+        "purl": "pkg:npm/prop-types@^15.8.1",
+        "bom-ref": "npm/prop-types@^15.8.1"
+      },
+      {
+        "type": "library",
+        "name": "react",
+        "version": "18.2.0",
+        "purl": "pkg:npm/react@18.2.0",
+        "bom-ref": "npm/react@18.2.0"
+      },
+      {
+        "type": "library",
+        "name": "react-dom",
+        "version": "18.2.0",
+        "purl": "pkg:npm/react-dom@18.2.0",
+        "bom-ref": "npm/react-dom@18.2.0"
+      },
+      {
+        "type": "library",
+        "name": "react-github-btn",
+        "version": "^1.4.0",
+        "purl": "pkg:npm/react-github-btn@^1.4.0",
+        "bom-ref": "npm/react-github-btn@^1.4.0"
+      },
+      {
+        "type": "library",
+        "name": "react-inlinesvg",
+        "version": "^3.0.1",
+        "purl": "pkg:npm/react-inlinesvg@^3.0.1",
+        "bom-ref": "npm/react-inlinesvg@^3.0.1"
+      },
+      {
+        "type": "library",
+        "name": "react-intersection-observer",
+        "version": "^9.4.0",
+        "purl": "pkg:npm/react-intersection-observer@^9.4.0",
+        "bom-ref": "npm/react-intersection-observer@^9.4.0"
+      },
+      {
+        "type": "library",
+        "name": "remark",
+        "version": "^14.0.2",
+        "purl": "pkg:npm/remark@^14.0.2",
+        "bom-ref": "npm/remark@^14.0.2"
+      },
+      {
+        "type": "library",
+        "name": "remark-gfm",
+        "version": "^3.0.1",
+        "purl": "pkg:npm/remark-gfm@^3.0.1",
+        "bom-ref": "npm/remark-gfm@^3.0.1"
+      },
+      {
+        "type": "library",
+        "name": "remark-react",
+        "version": "^9.0.1",
+        "purl": "pkg:npm/remark-react@^9.0.1",
+        "bom-ref": "npm/remark-react@^9.0.1"
+      },
+      {
+        "type": "library",
+        "name": "remark-smartypants",
+        "version": "^2.0.0",
+        "purl": "pkg:npm/remark-smartypants@^2.0.0",
+        "bom-ref": "npm/remark-smartypants@^2.0.0"
+      },
+      {
+        "type": "library",
+        "name": "remark-unwrap-images",
+        "version": "^3.0.1",
+        "purl": "pkg:npm/remark-unwrap-images@^3.0.1",
+        "bom-ref": "npm/remark-unwrap-images@^3.0.1"
+      },
+      {
+        "type": "library",
+        "name": "sass",
+        "version": "^1.56.1",
+        "purl": "pkg:npm/sass@^1.56.1",
+        "bom-ref": "npm/sass@^1.56.1"
+      },
+      {
+        "type": "library",
+        "name": "typescript",
+        "version": "4.8.4",
+        "purl": "pkg:npm/typescript@4.8.4",
+        "bom-ref": "npm/typescript@4.8.4"
+      },
+      {
+        "type": "library",
+        "name": "unist-util-visit",
+        "version": "^4.1.1",
+        "purl": "pkg:npm/unist-util-visit@^4.1.1",
+        "bom-ref": "npm/unist-util-visit@^4.1.1"
+      },
+      {
+        "type": "library",
+        "name": "ws",
+        "version": "^8.11.0",
+        "purl": "pkg:npm/ws@^8.11.0",
+        "bom-ref": "npm/ws@^8.11.0"
+      }
+    ]
+  },
+  "elapsed_seconds": 470.52
+}
